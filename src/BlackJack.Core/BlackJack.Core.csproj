@@ -6,8 +6,8 @@
     <Nullable>enable</Nullable>
     <Authors>Eduard Keilholz</Authors>
     <Copyright>2022</Copyright>
-    <PackageProjectUrl>https://github.com/nikneem/pollstar-core-package</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/nikneem/pollstar-core-package</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/nikneem/blackjack-core-library</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/nikneem/blackjack-core-library</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>

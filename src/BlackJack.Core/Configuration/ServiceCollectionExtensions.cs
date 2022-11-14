@@ -8,7 +8,7 @@ namespace BlackJack.Core.Configuration;
 
 public static class ServiceCollectionExtensions
 {
-    public static IServiceCollection AddPollStarCore(this IServiceCollection services, IConfiguration configuration)
+    public static IServiceCollection AddBlackJackCore(this IServiceCollection services, IConfiguration configuration)
     {
         services.AddHealthChecks()
             .AddCheck<StorageAccountHealthCheck>("StorageAccountHealthCheck");
