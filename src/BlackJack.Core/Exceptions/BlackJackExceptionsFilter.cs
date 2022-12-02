@@ -24,7 +24,7 @@ public class BlackJackExceptionsFilter : ExceptionFilterAttribute
             context.Result = new ObjectResult(new ErrorMessageDto
             {
                 ErrorCode = exception.ErrorCode.Code,
-                TranslationKey = exception.ErrorCode.TranslationKey,
+                TranslationKey = exception.ErrorCode.TranslationKey.ToLowerInvariant(),
                 ErrorMessage = exception.Message,
                 Substitutions = exception.Substitutes
             })
