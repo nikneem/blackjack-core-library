@@ -13,6 +13,7 @@
   <ItemGroup>
     <Folder Include="Events\" />
     <Folder Include="Factories\" />
+    <Folder Include="Enums\" />
   </ItemGroup>
 
   <ItemGroup>
